@@ -22,7 +22,7 @@ module.exports = {
   name: 'reload',
   description: 'Recarrega todos os comandos (incluindo subpastas)',
   async execute(message, args, client) {
-    if (message.author.id !== '745614232925503508') 
+    if (message.author.id !== 'SEU ID') 
       return message.reply('Você não tem permissão para usar este comando.');
 
     // Aqui está a mágica:
