@@ -4,7 +4,7 @@ module.exports = {
   name: 'eval',
   description: 'Executa código JavaScript (somente para o dono)',
   async execute(message, args) {
-    if (message.author.id !== '745614232925503508') 
+    if (message.author.id !== 'SEU ID') 
       return message.reply('Você não tem permissão para usar este comando.');
 
     const code = args.join(' ');
